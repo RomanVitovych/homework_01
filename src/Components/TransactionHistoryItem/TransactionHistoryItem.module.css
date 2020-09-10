@@ -1,0 +1,25 @@
+.oneString:nth-child(2n) {
+    background-color: palevioletred;
+}
+
+.generalStyles {
+    width: 240px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 145, 145);
+    color: gray;
+    padding: 20px 0;
+}
+
+.type {
+    composes: generalStyles;
+    text-transform: capitalize;
+}
+.amount {
+    composes: generalStyles;
+}
+.currency {
+    composes: generalStyles;
+}

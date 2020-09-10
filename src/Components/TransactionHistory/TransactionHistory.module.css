@@ -1,0 +1,29 @@
+.transactionHistoryTable {
+    width: 720px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.titleList {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    background: blue;
+}
+
+.generalStyles {
+    width: 240px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.type {
+    composes: generalStyles;
+}
+.amount {
+    composes: generalStyles;
+}
+.currency {
+    composes: generalStyles;
+}
